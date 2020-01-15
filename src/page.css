@@ -1,0 +1,156 @@
+:root {
+  --cyberblue-background: #006080;
+  --cyberred-background: #861CAB;
+  --darkblue-background: #000040;
+  --darkred-background: #2F0B47;
+  --cyberpurp-background: #6300CA;
+}
+
+html {
+  background-color: black;
+  /* background-color: #3DCAD7; */
+  font-family: sans-serif;
+  /* border-color: White;
+  border: 1px solid;
+  border-radius: 16px; */
+}
+
+#pp {
+  border: 1px solid;
+  border-radius: 16px;
+  height: 200;
+}
+
+#heading-blue {
+  border: 1px solid;
+  border-radius: 16px;
+  text-align: center;
+  padding: 2px;
+  width: 220px;
+  background-color: var(--cyberblue-background);
+}
+
+#heading-red {
+  border: 1px solid;
+  border-radius: 16px;
+  text-align: center;
+  padding: 2px;
+  width: 220px;
+  background-color: var(--cyberred-background);
+}
+
+#heading-purp {
+  border: 1px solid;
+  border-radius: 16px;
+  text-align: center;
+  padding: 2px;
+  width: 220px;
+  /* background-color: var(--cyberpurp-background); */
+  background-color: black;
+  color: white;
+}
+
+#ContactCard {
+  background-color: #081F3F;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  background: url("./images/night_stars.gif");
+  /* background: url("./images/north_lights.png"); */
+  /* background: url("./images/drift.png"); */
+  /* background: url("./images/changing_sky.gif"); */
+}
+
+#experience {
+  background: url("./images/city8bit.jpg");
+  color: white;
+  text-align: left;
+  padding: 200px;
+  -WEBKIT-BACKGROUND-SIZE: COVER;
+  -MOZ-BACKGROUND-SIZE: COVER;
+  -O-BACKGROUND-SIZE: COVER;
+  BACKGROUND-SIZE: COVER;
+}
+
+.button {
+  font: 15px sans-serif;
+  text-decoration: none;
+  background-color: #006080;
+  color: white;
+  padding: 2px;
+  border-color: white;
+  border-radius: 16px;
+  text-align: center;
+  border: 1px solid;
+}
+
+#competitions {
+  color: white;
+  background: url("./images/city_red.png");
+  -WEBKIT-BACKGROUND-SIZE: COVER;
+  -MOZ-BACKGROUND-SIZE: COVER;
+  -O-BACKGROUND-SIZE: COVER;
+  BACKGROUND-SIZE: COVER;
+  padding: 200px;
+}
+
+#technical {
+  /* background: url("./images/drift.png"); */
+  background: url("./images/night_stars.gif");
+  color: black;
+  text-align: left;
+  padding: 200px;
+  /* -WEBKIT-BACKGROUND-SIZE: COVER;
+  -MOZ-BACKGROUND-SIZE: COVER;
+  -O-BACKGROUND-SIZE: COVER;
+  BACKGROUND-SIZE: COVER; */
+}
+
+#darkred {
+  background: var(--darkred-background);
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 16px;
+}
+
+#lightred {
+  background: var(--cyberred-background);
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 16px;
+}
+
+#purp {
+  /* background: var(--cyberpurp-background); */
+  background-color: black;
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 16px;
+  color: white;
+}
+
+#cyberblue {
+  background: var(--cyberblue-background);
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 16px;
+}
+
+#darkblue {
+  background: var(--darkblue-background);
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 16px;
+}
+
+#footer {
+  color: white;
+}
+
+
+
+/* keeping this mama jama here for now */
+  /* -webkit-background-size: cover; */
+  /* -moz-background-size: cover; */
+  /* -o-background-size: cover; */
+  /* background-size: cover; */
